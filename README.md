@@ -2,6 +2,11 @@ Tracker
 ===================================================================================================
 >This web app built on the MERN tech stack will track your and multiple users' location in real time
 
+Run Directions
+==================
+>- Must have nodeJS. Run 'npm install' in both client and server directories.
+>- Then run 'npm run dev'. This commands runs both server and client concurrently.
+
 ## National Park Meetup
 
 **Problem Statement**
