@@ -5,7 +5,7 @@ Tracker
 Run Directions
 ==================
 >- Must have nodeJS. Run 'npm install' in both client and server directories.
->- Replace <user> and <password> in 'MONGO_URI' variable of .env file
+>- Replace '<user>' and '<password>' in 'MONGO_URI' variable of .env file
 >- Run 'npm run dev' in either server or client directory of the project. This custom command runs both server and client concurrently.
 >- Navigate to <https://localhost:3000> > open browser's Developer Tools > open Sensors > in Location section, change location in dropdown menu.
 >  -You can view location updates in browser console
