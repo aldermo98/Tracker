@@ -7,11 +7,8 @@ const router = express.Router();
 const navigator = new Navigator();
 
 const Schema = mongoose.Schema
-let db_user=""; 
-let db_pw="";
-const MONGO_URI = `mongodb+srv://${db_user}:${db_pw}@tracker.dts90jw.mongodb.net/?retryWrites=true&w=majority`
 try {
-    mongoose.connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true });
+    mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true });
 } catch (error) {
     console.log(`Error connecting to DB: ${error}`);
 }
